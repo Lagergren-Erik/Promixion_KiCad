@@ -2736,6 +2736,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "New_Library_0:7Pin_Socket_Laser"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LASER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "7Pin_Socket_Laser_1_1"
+				(circle
+					(center 0 0)
+					(radius 16.5588)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 1.27 180)
+					(length 2.54)
+					(name "LD+/TUNING_Vt+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -6.35 180)
+					(length 2.54)
+					(name "THERMISTOR+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 8.89 180)
+					(length 2.54)
+					(name "TEC-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -10.16 270)
+					(length 2.54)
+					(name "THERMISTOR-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 8.89 0)
+					(length 2.54)
+					(name "TEC+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 1.27 0)
+					(length 2.54)
+					(name "LD-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -6.35 0)
+					(length 2.54)
+					(name "TUNING_Vt-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "OPA170AIDBVR:OPA170AIDBVR"
 			(pin_names
 				(offset 1.016)
@@ -6100,6 +6288,88 @@
 			(project "Super cool project for Promixion"
 				(path "/236c3ba3-cbc4-4020-b8ad-b2d57e4f816e"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library_0:7Pin_Socket_Laser")
+		(at 306.07 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21507d19-77e6-44e8-978f-24286d1da379")
+		(property "Reference" "LASER1"
+			(at 306.07 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 306.07 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bandwidth10.com/wp-content/uploads/2025/05/BW10-1550-Txx-PxFA-C100-V2.4.pdf"
+			(at 306.07 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P7"
+			(uuid "77eff931-3dfb-4327-988e-ac380b4cf29d")
+		)
+		(pin "P1"
+			(uuid "a2b90754-534e-4f23-b9b1-5998b513e872")
+		)
+		(pin "P6"
+			(uuid "3e38c6b1-4cd7-479c-835c-4898704627f3")
+		)
+		(pin "P5"
+			(uuid "96b149ec-a0fe-454c-a643-c34f428c4b11")
+		)
+		(pin "P4"
+			(uuid "db0e375f-4c6d-4157-92be-7a18bd9c6478")
+		)
+		(pin "P2"
+			(uuid "9b09a086-973f-43f4-b3aa-cb98f9fba873")
+		)
+		(pin "P3"
+			(uuid "259412a2-40ab-4be4-9b4f-3a06b5256a49")
+		)
+		(instances
+			(project ""
+				(path "/236c3ba3-cbc4-4020-b8ad-b2d57e4f816e"
+					(reference "LASER1")
 					(unit 1)
 				)
 			)
