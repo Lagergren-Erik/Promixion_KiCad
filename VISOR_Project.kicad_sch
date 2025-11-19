@@ -5531,6 +5531,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -5932,6 +6057,12 @@
 		(uuid "1bbda85c-67aa-473c-ba45-2f92f36d0caf")
 	)
 	(junction
+		(at 372.11 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e2b41a0-f5c3-4f7f-986c-69b51428d762")
+	)
+	(junction
 		(at 248.92 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6008,12 +6139,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c86a1dfd-1700-4b72-9f8e-87e8d90f9ce1")
-	)
-	(junction
-		(at 372.11 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3d296c2-4293-4583-855f-25457d87b010")
 	)
 	(junction
 		(at 289.56 111.76)
@@ -6425,6 +6550,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 119.38) (xy 379.73 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7192dd4e-c672-4367-babf-830764f19cfe")
+	)
+	(wire
+		(pts
 			(xy 289.56 111.76) (xy 289.56 114.3)
 		)
 		(stroke
@@ -6502,6 +6637,16 @@
 			(type default)
 		)
 		(uuid "85cd6688-003a-4815-ab74-300242fb7c09")
+	)
+	(wire
+		(pts
+			(xy 387.35 119.38) (xy 396.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a00764c-cf9d-4770-8509-ff928cd97ccb")
 	)
 	(wire
 		(pts
@@ -8103,7 +8248,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Optical:BPW82")
-		(at 384.81 119.38 0)
+		(at 382.27 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8112,7 +8257,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d657e2b-3cf9-4769-9930-5f1330c2e7e2")
 		(property "Reference" "D2"
-			(at 383.8829 111.76 0)
+			(at 383.1971 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +8265,7 @@
 			)
 		)
 		(property "Value" "BPW82"
-			(at 383.8829 114.3 0)
+			(at 383.1971 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8128,7 +8273,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:Osram_BPW82"
-			(at 384.81 114.935 0)
+			(at 382.27 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +8291,7 @@
 			)
 		)
 		(property "Description" "Silicon PIN Photodiode with Daylight Blocking Filter"
-			(at 384.81 119.38 0)
+			(at 382.27 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8355,7 +8500,7 @@
 				)
 			)
 		)
-		(property "Value" "42.5"
+		(property "Value" "62.5"
 			(at 262.89 241.3 90)
 			(effects
 				(font
@@ -8423,7 +8568,7 @@
 				)
 			)
 		)
-		(property "Value" "4.22k"
+		(property "Value" "1.5k"
 			(at 354.33 92.71 90)
 			(effects
 				(font
@@ -9365,7 +9510,7 @@
 				)
 			)
 		)
-		(property "Value" "8.2p"
+		(property "Value" "20p"
 			(at 354.33 102.87 90)
 			(effects
 				(font
@@ -9634,6 +9779,73 @@
 			(project "Super cool project for Promixion"
 				(path "/236c3ba3-cbc4-4020-b8ad-b2d57e4f816e"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 396.24 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c511a3d-0522-402a-99e5-f207f00164a4")
+		(property "Reference" "#PWR018"
+			(at 400.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 392.43 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 396.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3324b753-83a8-46ed-b253-b127b22cbbde")
+		)
+		(instances
+			(project ""
+				(path "/236c3ba3-cbc4-4020-b8ad-b2d57e4f816e"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9984,74 +10196,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 375.92 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adbe99b9-986b-4bd1-9a7f-7bc61b1ba418")
-		(property "Reference" "Ci"
-			(at 375.92 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0,6p"
-			(at 375.92 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 379.73 118.4148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 375.92 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 375.92 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "92a5aa7a-b818-4b3f-bc92-0714de5c7535")
-		)
-		(pin "1"
-			(uuid "64bde690-2485-4d1b-a7cf-f0fecc01717a")
-		)
-		(instances
-			(project "VISOR_Project"
-				(path "/236c3ba3-cbc4-4020-b8ad-b2d57e4f816e"
-					(reference "Ci")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 327.66 209.55 270)
 		(unit 1)
@@ -10391,72 +10535,6 @@
 			(project "Super cool project for Promixion"
 				(path "/236c3ba3-cbc4-4020-b8ad-b2d57e4f816e"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 387.35 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbbb333f-06cc-40eb-986d-6223f6b44d21")
-		(property "Reference" "#PWR019"
-			(at 387.35 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 387.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 387.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 387.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3de43cc7-49d3-425c-a54d-b3416efec188")
-		)
-		(instances
-			(project "VISOR_Project"
-				(path "/236c3ba3-cbc4-4020-b8ad-b2d57e4f816e"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
