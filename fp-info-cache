@@ -1,4 +1,4 @@
-25214247850242093
+25216011897368440
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88823,14 +88823,21 @@ Potentiometer vertical vishay
 3
 3
 Promix_Lib
-Las_Socket
+DIP787W46P254L927H533Q8
 
 
 0
-7
-7
+8
+8
 Promix_Lib
-Untitled
+INGaAS_Photodiode
+
+
+0
+3
+3
+Promix_Lib
+Las_Socket
 
 
 0
